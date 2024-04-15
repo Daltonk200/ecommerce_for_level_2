@@ -20,8 +20,9 @@
                     <p>${article.description.slice(0,30)}</p>
                     <button onclick="addTo()">Add To Cart</button>
                     <p>Price: $${article.price}</p>`;
-                    var articleSrc = article.image;
                     articlesList.appendChild(articleElement);
+                    
+
                     // article.classlist.add('article-box')
                 });
             } catch (error) {
