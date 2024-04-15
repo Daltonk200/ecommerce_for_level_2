@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -8,6 +9,8 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: linear-gradient(to bottom left, #776CE2,#55BAD6,#AA45E7,#C538EB);
+
 }
 
 .login-container{
@@ -15,6 +18,10 @@ body{
     padding: 20px ;
     border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #fff;
+}
+.login-container h2{
+    text-align: center;
 }
 
 .form-group{
@@ -34,18 +41,22 @@ input{
 button{
     width: 100%;
     padding: 10px;
-    background-color: rgb(0, 123, 255);
+    background: linear-gradient(to bottom left, #776CE2,#55BAD6,#AA45E7,#C538EB);
     color: #fff;
     border:none;
     margin-top: 10px;
     border-radius: 5px;
-    transition: 0.5s;
+    transition: 3s;
     cursor: pointer;
 }
 button:hover{
-    background-color: rgb(0, 86, 179);
+    background: linear-gradient(to bottom right, #776CE2,#56b7d1,#a665ce,#9b49b1);
 }
 #error-message{
     color: red;
     margin-top: 10px;
+}
+.dont-have-account,
+.already-have-account{
+    text-align: right;
 }

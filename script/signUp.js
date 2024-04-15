@@ -1,4 +1,4 @@
-document.getElementById('sign-in-form').addEventListener('submit',(event)=>{
+document.getElementById('sign-up-form').addEventListener('submit',(event)=>{
      event.preventDefault();
 
      var userName = document.getElementById('username').value;
@@ -6,7 +6,7 @@ document.getElementById('sign-in-form').addEventListener('submit',(event)=>{
 
       var users = JSON.parse(localStorage.getItem('users')) || {};
       if(users.hasOwnProperty(userName)){
-        alert('user exist')
+        alert('user exist');
           return;
 
       } 

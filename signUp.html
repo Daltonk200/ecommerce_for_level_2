@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SignUp</title>
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
     <div class="login-container">
-        <h2>Welcome To signin</h2>
-        <form id="sign-in-form">
+        <h2>signIn</h2>
+        <form id="sign-up-form">
             <div class="form-group">
                 <label for="username">Username:</label>
                 <input type="text" placeholder="Enter your name" id="username" name="username" required>
@@ -17,11 +17,13 @@
             <div class="form-group">
                 <label for="username">Password:</label>
                 <input type="password" placeholder="Enter your Password" id="Password" name="Password" required>
-                  <button type="submit">login</button>
+                  <button type="submit">SignUp</button>
             </div>
         </form>
         <p id="error-message"></p>
+        <p class="already-have-account"><a href="login.html">Already Have An Account?</a></p>
+
     </div>
-    <script src="script/signin.js"></script>
+    <script src="script/signUp.js"></script>
 </body>
 </html>
